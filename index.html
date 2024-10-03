@@ -16,6 +16,10 @@
   <!-- font awesome link l -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
+  <!--swiper css-->
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+
+
   <!-- Own css link -->
   <link rel="stylesheet" href="style.css">
 
@@ -152,16 +156,16 @@
 
   <!-- tour packages section  start -->
   <section class="tour-section">
-    <div class="tour-packages contener">
+    <div class="tour-packages contener swiper swiper-content">
 
       <div class="tour-pacekages-title">
         <h6 class="sub-title primary-color">TOUR PACKAGES</h6>
         <h2 class="main-title">The amazing places around <span class="primary-color">the world</span></h2>
       </div>
 
-      <div class="tout-wraper">
+      <div class="tout-wraper swiper-wrapper">
 
-        <div class="tour-places">
+        <div class="tour-places swiper-slide">
           <div class="place-img">
             <img src="img/plaes-Image1.png" alt="">
           </div>
@@ -176,7 +180,7 @@
           </div>
         </div>
 
-        <div class="tour-places">
+        <div class="tour-places swiper-slide">
           <div class="place-img">
             <img src="img/plaes-Image2.png" alt="">
           </div>
@@ -191,7 +195,21 @@
           </div>
         </div>
 
-        <div class="tour-places">
+        <div class="tour-places swiper-slide">
+          <div class="place-img">
+            <img src="img/plaes-Image3.png" alt="">
+          </div>
+          <div class="place-nam">
+            <h4>Fall in love among the winding streets and snow-covered</h4>
+            <p>Prague, Czechia</p>
+            <img src="img/star.png" alt="">
+            <div class="price">
+              <h3>$150</h3>
+              <span>7 days tour</span>
+            </div>
+          </div>
+        </div>
+        <div class="tour-places swiper-slide">
           <div class="place-img">
             <img src="img/plaes-Image3.png" alt="">
           </div>
@@ -208,6 +226,10 @@
 
 
       </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
     </div> <!--Tour Packages end -->
   </section>
 
@@ -370,7 +392,9 @@
     </div> <!--contener-->
   </footer>
 
-  <script></script>
+  <script src="swiper-bundle.min.js"></script>
+
+  <script src="app.js"></script>
 </body>
 
 </html>

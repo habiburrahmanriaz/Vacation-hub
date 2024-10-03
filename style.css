@@ -35,6 +35,8 @@ li{
   margin: 0 auto;
 }
 
+/* header css  */
+
 .main-meno-container{
   max-width: 1145px;
   margin: 0 auto;
@@ -46,6 +48,7 @@ li{
 
 header{
   box-shadow: var(--box-shadow);
+  background-color: var(--white);
 }
 
 nav ul {
@@ -131,6 +134,7 @@ nav ul li a:hover{
   box-shadow: var(--box-shadow);
   border-radius: 58px;
   padding: 15px;
+  background-color: var(--white);
 }
 .search-input1{
   display: flex;
@@ -234,12 +238,7 @@ nav ul li a:hover{
 
 /* Tour Packages start */
 .tour-section{
-  padding: 120px 0 60px;
-}
-.tout-wraper{
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
+  padding: 120px 0px 60px 0px;
 }
 .tour-pacekages-title{
   margin: 0 auto;
@@ -251,12 +250,12 @@ nav ul li a:hover{
 }
 .tour-places{
   box-shadow: var(--box-shadow);
-  margin-top: 70px;
+  background-color: var(--white);
+  margin: 70px 0px;
   border-radius: 15px ;
 }
-.place-img{
-  max-width: 370px;
-  max-height: 300px;
+.place-img img {
+  max-width: 100%;
 }
 .place-nam{
   padding: 20px 20px;
@@ -327,6 +326,8 @@ nav ul li a:hover{
   padding: 61px;
   max-width: 347px;
   max-height: 375px;
+  background-color: var(--white);
+  border-radius: 16px;
   
 }
 .customer-img{
@@ -399,6 +400,7 @@ nav ul li a:hover{
   text-align: left;
   box-shadow: var(--box-shadow);
   border: 1px solid transparent;
+  background-color: var(--white);
 }
 .tour-item img{
   max-width: 100%;
@@ -509,4 +511,28 @@ nav ul li a:hover{
   background-color: transparent; 
   cursor: pointer;
   border: none;
+}
+
+
+/* Over Right Css */
+.swiper-button-next {
+  position: absolute;
+  right: 4%;
+  top: 10%;
+  background: #ff000014;
+  padding: 24px;
+  border-radius: 50%;
+}
+.swiper-button-prev {
+  position: absolute;
+  top: 10%;
+  background: #ff000014;
+  padding: 24px;
+  border-radius: 50%;
+  left: unset;
+  right: 9%;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 20px;
+  color: var(--primary);
 }
