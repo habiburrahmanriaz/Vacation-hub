@@ -254,8 +254,16 @@ nav ul li a:hover{
   margin-top: 70px;
   border-radius: 15px ;
 }
+.place-img{
+  max-width: 370px;
+  max-height: 300px;
+}
 .place-nam{
   padding: 20px 20px;
+}
+.place-nam img{
+  max-width: 50px;
+  max-height: 25px;
 }
 .place-nam h4{
   font-size: 20px;
@@ -316,8 +324,19 @@ nav ul li a:hover{
 }
 .customer{
   box-shadow: var(--box-shadow);
-  padding: 65px;
+  padding: 61px;
+  max-width: 347px;
+  max-height: 375px;
   
+}
+.customer-img{
+  max-width: 80px;
+  max-height: 80px;
+  margin: 0 auto;
+}
+.customer-star{
+  max-width: 80px;
+  max-height: 16px;
 }
 .customer h4{
   font-size: 18px;
